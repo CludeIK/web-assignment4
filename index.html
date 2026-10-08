@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 - DOM Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container" >
+        <h1>Assignment 6 - DOM Manipulation</h1>
+
+        <!-- Task 2: Changing Content -->
+        <section class="task-box">
+            <h2>Task 2: Changing Content</h2>
+            <p id="text-paragraph">Initial text inside the paragraph.</p>
+            <button id="change-text-btn">Change text</button>
+        </section>
+
+        <!-- Task 3: Changing styles -->
+        <section class="task-box">
+            <h2>Task 3: Changing Style</h2>
+            <div id="styled-box" class="color-box">This is a box</div>
+            <button id="change-color-btn">Change color</button>
+            <button id="change-font-btn">Change font size</button>
+        </section>
+
+        <!-- Task 4: Creating & Removing Elements -->
+        <section class="task-box">
+            <h2>Task 4: Lists Control</h2>
+            <ul id="item-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <button id="add-item-btn">Add Item</button>
+            <button id="remove-item-btn">Remove Item</button>
+        </section>
+        <!-- Task 5: Mouse Events -->
+        <section class="task-box">
+            <h2>Task 5: Mouse Events</h2>
+            <div id="mouse-box" class="mouse-box">Hover over me!</div>
+        </section>
+
+        <!-- Task 6: Keyboard Events -->
+        <section class="task-box">
+            <h2>Task 6: Keyboard Events</h2>
+            <input type="text" id="keyboard-input" placeholder="Type something...">
+            <p>You typed: <span id="output-text" style="font-weight: bold; color: #2980b9;"></span></p>
+        </section>
+
+        <!-- Task 7: Calculator -->
+        <section class="task-box">
+            <h2>Task 7: Simple Calculator</h2>
+            <input type="number" id="num1" placeholder="Num 1">
+            <input type="number" id="num2" placeholder="Num 2">
+            <div style="margin-top: 10px;">
+                <button id="calc-add"> + </button>
+                <button id="calc-sub"> - </button>
+                <button id="calc-mul"> * </button>
+                <button id="calc-div"> / </button>
+            </div>
+            <p>Result: <span id="calc-result" style="font-weight: bold;">0</span></p>
+        </section>
+
+        <!-- Task 8: To-Do App -->
+        <section class="task-box">
+            <h2>Task 8: Interactive To-Do List</h2>
+            <input type="text" id="todo-input" placeholder="Task title...">
+            <button id="todo-add-btn">Add Task</button>
+            <ul id="todo-list" style="list-style: none; padding: 0; margin-top: 15px;"></ul>
+        </section>
+    </div>
+
+</body>
+</html>
